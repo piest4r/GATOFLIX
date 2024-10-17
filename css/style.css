@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: #0a0a0a;
+    color: #A9A9A9;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    
+    background-color: #121212;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+header h2{
+    font-size: 35px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 200px;
+    justify-content: flex-end;
+    align-items: center;
+}
+header ul li {
+    margin-left: 30px;
+    list-style: none;
+}
+header ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #626262;
+}
+header ul li:hover{
+    color: white;
+    font-size: 24px;
+}
+.init{
+    background-color: #030303;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.init h2{
+    padding-left: 70px;
+    font-size: 40px;
+}
+.outros{
+    width: 100%;
+    height: 500px;
+    
+}
+.outros h2{
+    padding-left: 50%;
+    padding-top: 40px;
+
+}
+.videos {
+    display: flex;
+    overflow-x: auto;
+    padding: 50px;
+    gap:10px
+}
+.outros .videos img{
+    height: 200px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.outros .videos img:hover{
+    height: 220px;
+    opacity: 1;
+}
+
